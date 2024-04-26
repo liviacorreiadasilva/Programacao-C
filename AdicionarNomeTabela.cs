@@ -1,7 +1,15 @@
 using System;
 using System.Collections.Generic;
 
-class Program
+// o Using significa acesso, ou seja, ele permite acesso de algo. por exemplo, em "using sytem" significa que ele está permitindo o uso do "system", para que o system funcione corretamente
+// O System é  um indicador de acesso, ou seja, ele permite que o meu codigo acesse e utilize  os nembros do namespace como classes,funções metodos, heranças e e outros que teram no codigo.
+// O  System.Collections.Generic é uma biblioteca  usada  para fornecer uma estrutura de dados especiais para armazenar e organizar os elementos do mesmo tipo, como: 
+// list (lista ordenada que é acessada por um indice que pode armazenar qualquer tipo de dado); Dicionary<key,value> (Dicionário que irá mapear chaves únicas para valores, 
+//permitindo um  acesso rápido por chave); 
+
+// NameSpace é um organizador na estrutura do codigo, como se fossem uma  como pastas dentro de uma biblioteca. Cada pasta contém elementos relacionados, como classes que manipulam strings, funções matemáticas ou variáveis que armazenam configurações do programa.
+// Resumindo, o namespace é um organizador de estrutura do codigo, ou seja, ele que irá organizar as funções, classes , herenças e variaveis que ficam armazenada  na configuração do programa , oun seja a name espace que vai armazenar todas as classes, funçoes etc.
+class TabelaCRUD
 {
     // - static List<Dictionary<string, string>> tabela = new List<Dictionary<string, string>>(); : é uma variável que declaramos que será usada para armazenar os registros de usuários (nome, idade e telefone) ao longo da execução do programa.//
     
@@ -30,7 +38,7 @@ class Program
                 case "ver tabela":
                     VerTabela();
                     break;
-                case "buscar nome":
+                case "buscar pelo nome":
                     BuscarNome();
                     break;
                 case "excluir usuario":
